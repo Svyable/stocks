@@ -1,7 +1,6 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
-from math import isnan
 
 import numpy as np
 import pandas as pd
@@ -189,7 +188,8 @@ def score_stock(
     risk_per_share = max(entry - stop, entry * 0.005)
     risk_pct = risk_per_share / entry
     target_2r = entry + 2 * risk_per_share
-    position_pct = min(max_position_pct, account_risk_pct / risk_pct / 100)
+    # account_risk_pct is expressed as a percent (1.0 == 1%); risk_pct is decimal.
+    position_pct = min(max_position_pct, account_risk_pct / risk_pct)
 
     return {
         "ticker": ticker,
@@ -227,31 +227,37 @@ def rank_universe(config: dict, history: dict[str, pd.DataFrame]) -> tuple[pd.Da
     filters = config.get("filters", {})
     risk = config.get("risk", {})
 
-    rows: list[dict] = []
-    seen: set[tuple[str, str]] = set()
+    # A ticker can belong to more than one theme. Attribute it to whichever theme
+    # is strongest today so the final stack contains each ticker only once.
+    ticker_theme: dict[str, str] = {}
     for theme, spec in config["themes"].items():
-        for ticker in spec["tickers"]:
-            ticker = ticker.upper()
-            if (theme, ticker) in seen or ticker not in history:
-                continue
-            seen.add((theme, ticker))
-            try:
-                rows.append(
-                    score_stock(
-                        ticker=ticker,
-                        theme=theme,
-                        frame=history[ticker],
-                        benchmark_frame=history[benchmark],
-                        market=market,
-                        theme_score=theme_scores.get(theme, 0.0),
-                        min_price=float(filters.get("min_price", 5.0)),
-                        min_avg_dollar_volume_20d=float(filters.get("min_avg_dollar_volume_20d", 20_000_000)),
-                        account_risk_pct=float(risk.get("account_risk_per_trade_pct", 1.0)),
-                        max_position_pct=float(risk.get("max_position_pct", 25.0)),
-                    )
+        for raw_ticker in spec["tickers"]:
+            ticker = raw_ticker.upper()
+            current = ticker_theme.get(ticker)
+            if current is None or theme_scores.get(theme, 0.0) > theme_scores.get(current, 0.0):
+                ticker_theme[ticker] = theme
+
+    rows: list[dict] = []
+    for ticker, theme in ticker_theme.items():
+        if ticker not in history:
+            continue
+        try:
+            rows.append(
+                score_stock(
+                    ticker=ticker,
+                    theme=theme,
+                    frame=history[ticker],
+                    benchmark_frame=history[benchmark],
+                    market=market,
+                    theme_score=theme_scores.get(theme, 0.0),
+                    min_price=float(filters.get("min_price", 5.0)),
+                    min_avg_dollar_volume_20d=float(filters.get("min_avg_dollar_volume_20d", 20_000_000)),
+                    account_risk_pct=float(risk.get("account_risk_per_trade_pct", 1.0)),
+                    max_position_pct=float(risk.get("max_position_pct", 25.0)),
                 )
-            except ValueError:
-                continue
+            )
+        except ValueError:
+            continue
 
     ranked = pd.DataFrame(rows)
     if ranked.empty:
