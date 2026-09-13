@@ -1,0 +1,42 @@
+benchmark: SPY
+
+# Theme ETFs provide the top-down signal. Members provide breadth and leader selection.
+themes:
+  semiconductors:
+    etf: SMH
+    tickers: [NVDA, AVGO, AMD, MU, MRVL, ARM, LRCX, KLAC, AMAT, TSM]
+  ai_software:
+    etf: IGV
+    tickers: [PLTR, CRWD, NET, DDOG, SNOW, NOW, ORCL, MSFT, APP, TEM]
+  nuclear_power:
+    etf: URA
+    tickers: [CEG, VST, CCJ, LEU, OKLO, SMR, NNE, BWXT]
+  aerospace_space:
+    etf: XAR
+    tickers: [RKLB, ASTS, AVAV, RTX, NOC, LMT, GD, HWM]
+  robotics_automation:
+    etf: BOTZ
+    tickers: [ISRG, SYM, TER, ROK, ABB, PATH]
+  financials_fintech:
+    etf: XLF
+    tickers: [JPM, GS, MS, IBKR, HOOD, COIN, SOFI]
+  energy:
+    etf: XLE
+    tickers: [XOM, CVX, FANG, COP, SLB, HAL]
+  biotech:
+    etf: XBI
+    tickers: [VRTX, ALNY, REGN, CRSP, MRNA, RXRX]
+  cyber_security:
+    etf: CIBR
+    tickers: [CRWD, PANW, FTNT, ZS, OKTA, CYBR]
+  internet_consumer:
+    etf: XLY
+    tickers: [AMZN, META, GOOGL, NFLX, UBER, DASH, MELI]
+
+filters:
+  min_price: 5.0
+  min_avg_dollar_volume_20d: 20000000
+
+risk:
+  account_risk_per_trade_pct: 1.0
+  max_position_pct: 25.0
