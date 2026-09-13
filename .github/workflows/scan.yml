@@ -24,7 +24,7 @@ jobs:
       - run: pytest
 
   scan:
-    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' || (github.event_name == 'push' && github.actor != 'github-actions[bot]')
     runs-on: ubuntu-latest
     permissions:
       contents: write
