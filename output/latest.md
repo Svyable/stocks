@@ -1,6 +1,6 @@
 # Latest stack ranking
 
-Generated: 2026-09-13 22:09 UTC
+Generated: 2026-09-14 02:29 UTC
 
 Market regime: **NEUTRAL** — market score **10/20**.
 SPY: close 764.29 | EMA8 764.55 | EMA21 764.89 | EMA50 758.27

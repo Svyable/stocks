@@ -1,0 +1,14 @@
+{
+  "generated_at": "2026-09-14T02:29:36.834800+00:00",
+  "market": {
+    "regime": "NEUTRAL",
+    "score": 10.0,
+    "close": 764.2899780273438,
+    "ema8": 764.5461577469056,
+    "ema21": 764.8929330364352,
+    "ema50": 758.2707896807434
+  },
+  "ranked_count": 71,
+  "buy_candidate_count": 0,
+  "watch_count": 3
+}
