@@ -42,7 +42,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add output/latest.csv output/latest.json output/latest.md
+          git add output/latest.csv output/latest.json output/latest.md output/meta.json
           if git diff --cached --quiet; then
             echo "No ranking changes"
           else
@@ -50,3 +50,33 @@ jobs:
             git pull --rebase origin main
             git push origin HEAD:main
           fi
+
+  deploy-pages:
+    if: github.event_name != 'pull_request'
+    needs: scan
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Assemble site data
+        run: |
+          mkdir -p site/data
+          cp output/latest.json site/data/latest.json
+          cp output/meta.json site/data/meta.json
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: site
+      - name: Deploy Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
