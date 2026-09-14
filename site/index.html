@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#07111f" />
+  <meta name="description" content="Live stack-ranked momentum and breakout stock dashboard." />
+  <title>Svyable Stocks — Stack Ranking</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="shell">
+    <header class="topbar">
+      <a class="brand" href="./" aria-label="Svyable Stocks home">
+        <span class="brand-mark">S</span>
+        <span><strong>SVYABLE STOCKS</strong><small>STACK-RANKED MOMENTUM</small></span>
+      </a>
+      <div class="header-actions">
+        <span id="freshness" class="freshness">Loading scan…</span>
+        <a class="repo-link" href="https://github.com/Svyable/stocks" target="_blank" rel="noreferrer">GitHub ↗</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div>
+          <p class="eyebrow">MARKET → THEME → LEADER → SETUP → BREAKOUT → RISK</p>
+          <h1>Trade the strongest stocks<br /><span>in the right environment.</span></h1>
+          <p class="hero-copy">A live, rules-based stack ranking. High scores earn attention; only confirmed setups earn the buy-candidate label.</p>
+        </div>
+        <div id="regime-card" class="regime-card loading">
+          <span class="label">MARKET REGIME</span>
+          <strong id="regime">—</strong>
+          <span id="market-score">— / 20</span>
+          <div class="ema-strip" id="ema-strip"></div>
+        </div>
+      </section>
+
+      <section class="metrics" aria-label="Scan summary">
+        <article><span>BUY CANDIDATES</span><strong id="buy-count">—</strong><small>confirmed now</small></article>
+        <article><span>WATCH</span><strong id="watch-count">—</strong><small>building / waiting</small></article>
+        <article><span>TOP SCORE</span><strong id="top-score">—</strong><small id="top-score-name">—</small></article>
+        <article><span>LEADING THEME</span><strong id="top-theme">—</strong><small id="top-theme-score">—</small></article>
+      </section>
+
+      <section class="panel theme-panel">
+        <div class="panel-head">
+          <div><p class="kicker">WHERE THE MONEY FLOWS</p><h2>Theme strength</h2></div>
+          <span class="muted">derived from ranked names</span>
+        </div>
+        <div id="themes" class="theme-grid"></div>
+      </section>
+
+      <section class="panel rankings-panel">
+        <div class="panel-head rankings-head">
+          <div><p class="kicker">THE STACK</p><h2>Ranked opportunities</h2></div>
+          <div class="controls">
+            <input id="search" type="search" placeholder="Ticker or theme" aria-label="Search ticker or theme" />
+            <select id="action-filter" aria-label="Filter by action">
+              <option value="ALL">All signals</option>
+              <option value="BUY_CANDIDATE">Buy candidates</option>
+              <option value="WATCH">Watch</option>
+              <option value="NO_ACTION">No action</option>
+              <option value="DEFENSIVE">Defensive</option>
+              <option value="FILTERED">Filtered</option>
+            </select>
+          </div>
+        </div>
+
+        <div id="signal-banner" class="signal-banner" hidden></div>
+
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Rank</th><th>Stock</th><th>Signal</th><th class="num">Score</th><th class="num">Price</th><th class="num">Trigger</th><th class="num">Stop</th><th class="num">2R</th><th class="num">Vol</th><th>Score stack</th>
+              </tr>
+            </thead>
+            <tbody id="rankings"><tr><td colspan="10" class="empty">Loading latest ranking…</td></tr></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="method">
+        <article><b>1</b><div><strong>Analyze market</strong><span>SPY 8 / 21 / 50 EMA regime</span></div></article>
+        <article><b>2</b><div><strong>Find themes</strong><span>Relative strength + breadth</span></div></article>
+        <article><b>3</b><div><strong>Pick leaders</strong><span>Strength, highs, volume</span></div></article>
+        <article><b>4</b><div><strong>Wait for setup</strong><span>Tightness + structure</span></div></article>
+        <article><b>5</b><div><strong>Execute breakout</strong><span>Price + volume confirm</span></div></article>
+        <article><b>6</b><div><strong>Manage risk</strong><span>Stop, 2R, position cap</span></div></article>
+      </section>
+
+      <p class="disclaimer">Systematic research screen, not individualized investment advice. Verify live prices, news, earnings, liquidity and risk before trading.</p>
+    </main>
+  </div>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
