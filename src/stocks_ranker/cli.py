@@ -32,7 +32,24 @@ def _write_report(ranked: pd.DataFrame, market, out_dir: Path, top: int) -> None
         json.dumps(ranked.to_dict(orient="records"), indent=2), encoding="utf-8"
     )
 
-    as_of = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    generated_at = datetime.now(timezone.utc)
+    metadata = {
+        "generated_at": generated_at.isoformat(),
+        "market": {
+            "regime": market.regime,
+            "score": market.score,
+            "close": market.close,
+            "ema8": market.ema8,
+            "ema21": market.ema21,
+            "ema50": market.ema50,
+        },
+        "ranked_count": int(len(ranked)),
+        "buy_candidate_count": int((ranked["action"] == "BUY_CANDIDATE").sum()) if "action" in ranked else 0,
+        "watch_count": int((ranked["action"] == "WATCH").sum()) if "action" in ranked else 0,
+    }
+    (out_dir / "meta.json").write_text(json.dumps(metadata, indent=2), encoding="utf-8")
+
+    as_of = generated_at.strftime("%Y-%m-%d %H:%M UTC")
     if ranked.empty:
         table = "No qualifying symbols returned."
     else:
