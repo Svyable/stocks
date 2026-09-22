@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-22T00:13:10.088695+00:00",
+  "generated_at": "2026-09-22T23:41:34.860096+00:00",
   "market": {
-    "regime": "UPTREND_COOLING",
-    "score": 16.0,
-    "close": 761.6900024414062,
-    "ema8": 759.6516589775329,
-    "ema21": 761.117921452031,
-    "ema50": 756.6674436536026
+    "regime": "RISK_ON",
+    "score": 20.0,
+    "close": 773.3800048828125,
+    "ema8": 765.0959429356757,
+    "ema21": 763.2559685859143,
+    "ema50": 757.9568957285408
   },
   "ranked_count": 71,
-  "buy_candidate_count": 0,
-  "watch_count": 8
+  "buy_candidate_count": 2,
+  "watch_count": 9
 }
