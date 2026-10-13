@@ -1,54 +1,54 @@
 # Latest stack ranking
 
-Generated: 2026-10-10 01:04 UTC
+Generated: 2026-10-13 02:39 UTC
 
 Market regime: **RISK_ON** — market score **20/20**.
-SPY: close 773.93 | EMA8 772.43 | EMA21 768.50 | EMA50 762.65
+SPY: close 778.10 | EMA8 774.75 | EMA21 770.21 | EMA50 763.86
 
 ## Ranked candidates
 
-|   rank | ticker   | theme               | action        |   total_score |   price |   trigger |    stop |   target_2r |   volume_ratio |
-|-------:|:---------|:--------------------|:--------------|--------------:|--------:|----------:|--------:|------------:|---------------:|
-|      1 | PLTR     | ai_software         | BUY_CANDIDATE |         88.09 |  198.78 |    194.97 |  187.12 |      222.09 |           1.82 |
-|      2 | ZS       | cyber_security      | WATCH         |         75.75 |  216.81 |    217.19 |  199.23 |      253.09 |           1.13 |
-|      3 | FTNT     | cyber_security      | WATCH         |         74.74 |  189.1  |    192.6  |  181.37 |      215.06 |           1.08 |
-|      4 | OKTA     | cyber_security      | WATCH         |         72.17 |  220.21 |    226.67 |  207.9  |      264.19 |           0.65 |
-|      5 | XOM      | energy              | WATCH         |         69.81 |  168.5  |    169.81 |  163.21 |      183.02 |           0.99 |
-|      6 | SNOW     | ai_software         | WATCH         |         69.69 |  343.4  |    349.35 |  334.65 |      378.74 |           0.99 |
-|      7 | MSFT     | ai_software         | WATCH         |         68.03 |  522.61 |    536.23 |  511.37 |      585.94 |           0.91 |
-|      8 | CVX      | energy              | NO_ACTION     |         64.14 |  211.55 |    218    |  209.46 |      235.07 |           0.8  |
-|      9 | AMD      | semiconductors      | NO_ACTION     |         63.95 |  620.68 |    659.18 |  609.75 |      758.03 |           1.05 |
-|     10 | CRWD     | cyber_security      | NO_ACTION     |         63.4  |  263.01 |    287.28 |  265.81 |      330.21 |           0.88 |
-|     11 | MRVL     | semiconductors      | NO_ACTION     |         63.34 |  274.66 |    301.57 |  274.1  |      356.52 |           1.49 |
-|     12 | ISRG     | robotics_automation | NO_ACTION     |         63.26 |  415.41 |    417.23 |  398.25 |      455.18 |           1.13 |
-|     13 | DDOG     | ai_software         | NO_ACTION     |         63.06 |  273.8  |    285.97 |  263.49 |      330.91 |           0.98 |
-|     14 | TSM      | semiconductors      | NO_ACTION     |         61.97 |  457.99 |    487.96 |  466.04 |      531.79 |           1.33 |
-|     15 | NVDA     | semiconductors      | NO_ACTION     |         59.93 |  230.48 |    243.61 |  232.91 |      265.02 |           1.09 |
-|     16 | NOW      | ai_software         | NO_ACTION     |         59.58 |  139.75 |    147.72 |  136.93 |      169.29 |           1.07 |
-|     17 | COP      | energy              | NO_ACTION     |         59.46 |  134.19 |    141.76 |  135.34 |      154.6  |           0.88 |
-|     18 | MRNA     | biotech             | NO_ACTION     |         59.1  |  197    |    212.43 |  181    |      275.29 |           2.2  |
-|     19 | PANW     | cyber_security      | NO_ACTION     |         59.01 |  398.5  |    432.76 |  400.82 |      496.64 |           0.72 |
-|     20 | NET      | ai_software         | NO_ACTION     |         58.81 |  341.89 |    370.72 |  340.02 |      432.12 |           0.81 |
-|     21 | AMZN     | internet_consumer   | NO_ACTION     |         56.58 |  254.06 |    260.4  |  253.06 |      275.08 |           1.05 |
-|     22 | MU       | semiconductors      | NO_ACTION     |         54.37 | 1035.84 |   1109.83 | 1038.62 |     1252.24 |           1.16 |
-|     23 | GOOGL    | internet_consumer   | NO_ACTION     |         53.19 |  348.29 |    364.53 |  346.91 |      399.79 |           0.88 |
-|     24 | META     | internet_consumer   | NO_ACTION     |         52.76 |  720.89 |    780.6  |  725.74 |      890.32 |           0.73 |
-|     25 | TEM      | ai_software         | NO_ACTION     |         50.92 |   69.28 |     89.18 |   77.51 |      112.52 |           0.95 |
-|     26 | KLAC     | semiconductors      | NO_ACTION     |         50.56 |  196.72 |    208.89 |  193.97 |      238.72 |           1.12 |
-|     27 | AMAT     | semiconductors      | NO_ACTION     |         49.42 |  509.57 |    547.8  |  512.8  |      617.8  |           1.08 |
-|     28 | TER      | robotics_automation | NO_ACTION     |         49.38 |  398.72 |    452.31 |  413.4  |      530.13 |           1.34 |
-|     29 | LRCX     | semiconductors      | NO_ACTION     |         48.21 |  320.59 |    352.91 |  327.82 |      403.09 |           0.96 |
-|     30 | MELI     | internet_consumer   | NO_ACTION     |         48.06 | 1856.66 |   1948.79 | 1833.18 |     2180    |           0.4  |
-|     31 | VST      | nuclear_power       | NO_ACTION     |         44.77 |  156.14 |    168.28 |  154.35 |      196.14 |           1.66 |
-|     32 | CEG      | nuclear_power       | NO_ACTION     |         44.36 |  285.07 |    310.11 |  281.15 |      368.02 |           1.61 |
-|     33 | FANG     | energy              | DEFENSIVE     |         53.48 |  191.68 |    213.52 |  204.58 |      231.4  |           0.66 |
-|     34 | ROK      | robotics_automation | DEFENSIVE     |         52.13 |  434.14 |    460.66 |  440.13 |      501.73 |           1.34 |
-|     35 | AVGO     | semiconductors      | DEFENSIVE     |         51.21 |  360.14 |    381.22 |  360.05 |      423.57 |           1.12 |
-|     36 | ORCL     | ai_software         | DEFENSIVE     |         50.1  |  135.69 |    166.17 |  154.44 |      189.63 |           1.26 |
-|     37 | VRTX     | biotech             | DEFENSIVE     |         49.25 |  503.25 |    530.42 |  514.79 |      561.67 |           1.45 |
-|     38 | UBER     | internet_consumer   | DEFENSIVE     |         47.87 |   70.24 |     73.55 |   70.48 |       79.7  |           0.84 |
-|     39 | SLB      | energy              | DEFENSIVE     |         47.54 |   48.98 |     57.62 |   54.55 |       63.75 |           1.18 |
-|     40 | NFLX     | internet_consumer   | DEFENSIVE     |         46.48 |   71.57 |     81.1  |   78.01 |       87.29 |           1.23 |
+|   rank | ticker   | theme               | action    |   total_score |   price |   trigger |    stop |   target_2r |   volume_ratio |
+|-------:|:---------|:--------------------|:----------|--------------:|--------:|----------:|--------:|------------:|---------------:|
+|      1 | MSFT     | ai_software         | WATCH     |         80.18 |  541.15 |    537.76 |  515.17 |      582.94 |           0.83 |
+|      2 | PLTR     | ai_software         | WATCH     |         77.85 |  209    |    209.79 |  196.98 |      235.4  |           1.02 |
+|      3 | XOM      | energy              | WATCH     |         74.44 |  172.15 |    170.46 |  164.49 |      182.4  |           0.68 |
+|      4 | FTNT     | cyber_security      | WATCH     |         72.84 |  192.94 |    195.14 |  184.33 |      216.77 |           0.62 |
+|      5 | OKTA     | cyber_security      | WATCH     |         71.85 |  227.08 |    233.21 |  214.29 |      271.06 |           0.8  |
+|      6 | CVX      | energy              | WATCH     |         69.33 |  215    |    218    |  209.74 |      234.51 |           0.88 |
+|      7 | SNOW     | ai_software         | WATCH     |         66.46 |  360.37 |    369.41 |  342.47 |      423.28 |           0.99 |
+|      8 | ISRG     | robotics_automation | WATCH     |         65.98 |  427.64 |    427.96 |  405.93 |      472.02 |           0.76 |
+|      9 | DDOG     | ai_software         | WATCH     |         65.42 |  287.29 |    294.29 |  270.37 |      342.14 |           0.9  |
+|     10 | ZS       | cyber_security      | NO_ACTION |         64.23 |  225.78 |    234.54 |  214.7  |      274.23 |           0.85 |
+|     11 | COP      | energy              | NO_ACTION |         62.08 |  137.56 |    141.76 |  135.56 |      154.17 |           0.66 |
+|     12 | META     | internet_consumer   | NO_ACTION |         61.38 |  742.96 |    780.6  |  735.68 |      870.43 |           1.13 |
+|     13 | CRWD     | cyber_security      | NO_ACTION |         61.32 |  263.01 |    287.28 |  265.48 |      330.88 |           0.73 |
+|     14 | AMZN     | internet_consumer   | NO_ACTION |         61.25 |  259.53 |    263.06 |  254.42 |      280.34 |           0.72 |
+|     15 | NET      | ai_software         | NO_ACTION |         60.8  |  350.87 |    370.72 |  341.85 |      428.47 |           0.57 |
+|     16 | PANW     | cyber_security      | NO_ACTION |         57.72 |  403.83 |    432.76 |  398.9  |      500.49 |           0.84 |
+|     17 | MELI     | internet_consumer   | NO_ACTION |         57.62 | 1892.44 |   1913.38 | 1829.12 |     2081.91 |           0.59 |
+|     18 | NOW      | ai_software         | NO_ACTION |         56.22 |  140.32 |    147.72 |  136.95 |      169.25 |           0.92 |
+|     19 | AMD      | semiconductors      | NO_ACTION |         55.78 |  594.24 |    659.18 |  614.34 |      748.85 |           0.71 |
+|     20 | MRVL     | semiconductors      | NO_ACTION |         55.46 |  265.86 |    301.51 |  273.41 |      357.69 |           0.98 |
+|     21 | MRNA     | biotech             | NO_ACTION |         54.86 |  213.74 |    225.22 |  193.39 |      288.89 |           0.72 |
+|     22 | GOOGL    | internet_consumer   | NO_ACTION |         54.28 |  352.72 |    364.53 |  348.34 |      396.92 |           0.75 |
+|     23 | NVDA     | semiconductors      | NO_ACTION |         54.18 |  226.32 |    243.61 |  233.09 |      264.67 |           0.66 |
+|     24 | FANG     | energy              | NO_ACTION |         52.9  |  195.11 |    213.52 |  204.7  |      231.18 |           0.71 |
+|     25 | TSM      | semiconductors      | NO_ACTION |         52.36 |  444.35 |    487.96 |  465.7  |      532.47 |           0.91 |
+|     26 | TEM      | ai_software         | NO_ACTION |         50.19 |   67.99 |     89.18 |   77.31 |      112.91 |           0.48 |
+|     27 | AMAT     | semiconductors      | NO_ACTION |         47.87 |  497.53 |    547.8  |  514.65 |      614.09 |           0.69 |
+|     28 | CEG      | nuclear_power       | NO_ACTION |         44.12 |  293.89 |    310.11 |  280.39 |      369.54 |           0.64 |
+|     29 | VST      | nuclear_power       | NO_ACTION |         41.49 |  158.13 |    168.92 |  153.91 |      198.92 |           0.92 |
+|     30 | COIN     | financials_fintech  | NO_ACTION |         36.19 |  180.39 |    208.54 |  189.26 |      247.1  |           0.91 |
+|     31 | HOOD     | financials_fintech  | NO_ACTION |         35.83 |  109.22 |    126.87 |  117.4  |      145.79 |           0.57 |
+|     32 | UBER     | internet_consumer   | DEFENSIVE |         53.35 |   71.5  |     72.88 |   70.46 |       77.72 |           0.72 |
+|     33 | MU       | semiconductors      | DEFENSIVE |         48.15 |  989.04 |   1109.83 | 1033.32 |     1262.85 |           0.93 |
+|     34 | SLB      | energy              | DEFENSIVE |         48.03 |   48.77 |     56.04 |   53.25 |       61.61 |           0.63 |
+|     35 | ORCL     | ai_software         | DEFENSIVE |         47.81 |  137.39 |    153.19 |  141.61 |      176.35 |           0.72 |
+|     36 | VRTX     | biotech             | DEFENSIVE |         47.5  |  507    |    530.42 |  513.7  |      563.87 |           0.9  |
+|     37 | JPM      | financials_fintech  | DEFENSIVE |         47.23 |  334.3  |    354.19 |  344.37 |      373.83 |           0.67 |
+|     38 | REGN     | biotech             | DEFENSIVE |         47.14 |  762.81 |    814.34 |  770.61 |      901.82 |           0.81 |
+|     39 | ROK      | robotics_automation | DEFENSIVE |         46.64 |  433.97 |    460.66 |  440.65 |      500.68 |           1    |
+|     40 | LRCX     | semiconductors      | DEFENSIVE |         46.34 |  309.56 |    352.91 |  329.44 |      399.86 |           0.72 |
 
 ## Signal meaning
 
