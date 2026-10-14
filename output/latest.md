@@ -1,6 +1,6 @@
 # Latest stack ranking
 
-Generated: 2026-10-13 02:39 UTC
+Generated: 2026-10-14 00:26 UTC
 
 Market regime: **RISK_ON** — market score **20/20**.
 SPY: close 778.10 | EMA8 774.75 | EMA21 770.21 | EMA50 763.86
@@ -27,21 +27,21 @@ SPY: close 778.10 | EMA8 774.75 | EMA21 770.21 | EMA50 763.86
 |     16 | PANW     | cyber_security      | NO_ACTION |         57.72 |  403.83 |    432.76 |  398.9  |      500.49 |           0.84 |
 |     17 | MELI     | internet_consumer   | NO_ACTION |         57.62 | 1892.44 |   1913.38 | 1829.12 |     2081.91 |           0.59 |
 |     18 | NOW      | ai_software         | NO_ACTION |         56.22 |  140.32 |    147.72 |  136.95 |      169.25 |           0.92 |
-|     19 | AMD      | semiconductors      | NO_ACTION |         55.78 |  594.24 |    659.18 |  614.34 |      748.85 |           0.71 |
-|     20 | MRVL     | semiconductors      | NO_ACTION |         55.46 |  265.86 |    301.51 |  273.41 |      357.69 |           0.98 |
-|     21 | MRNA     | biotech             | NO_ACTION |         54.86 |  213.74 |    225.22 |  193.39 |      288.89 |           0.72 |
+|     19 | AMD      | semiconductors      | NO_ACTION |         55.79 |  594.24 |    659.18 |  614.34 |      748.85 |           0.71 |
+|     20 | MRVL     | semiconductors      | NO_ACTION |         55.46 |  265.86 |    301.51 |  273.41 |      357.69 |           0.99 |
+|     21 | MRNA     | biotech             | NO_ACTION |         54.86 |  213.74 |    225.22 |  193.39 |      288.89 |           0.73 |
 |     22 | GOOGL    | internet_consumer   | NO_ACTION |         54.28 |  352.72 |    364.53 |  348.34 |      396.92 |           0.75 |
-|     23 | NVDA     | semiconductors      | NO_ACTION |         54.18 |  226.32 |    243.61 |  233.09 |      264.67 |           0.66 |
+|     23 | NVDA     | semiconductors      | NO_ACTION |         54.18 |  226.32 |    243.61 |  233.09 |      264.67 |           0.67 |
 |     24 | FANG     | energy              | NO_ACTION |         52.9  |  195.11 |    213.52 |  204.7  |      231.18 |           0.71 |
 |     25 | TSM      | semiconductors      | NO_ACTION |         52.36 |  444.35 |    487.96 |  465.7  |      532.47 |           0.91 |
 |     26 | TEM      | ai_software         | NO_ACTION |         50.19 |   67.99 |     89.18 |   77.31 |      112.91 |           0.48 |
 |     27 | AMAT     | semiconductors      | NO_ACTION |         47.87 |  497.53 |    547.8  |  514.65 |      614.09 |           0.69 |
 |     28 | CEG      | nuclear_power       | NO_ACTION |         44.12 |  293.89 |    310.11 |  280.39 |      369.54 |           0.64 |
 |     29 | VST      | nuclear_power       | NO_ACTION |         41.49 |  158.13 |    168.92 |  153.91 |      198.92 |           0.92 |
-|     30 | COIN     | financials_fintech  | NO_ACTION |         36.19 |  180.39 |    208.54 |  189.26 |      247.1  |           0.91 |
+|     30 | COIN     | financials_fintech  | NO_ACTION |         36.19 |  180.39 |    208.54 |  189.26 |      247.1  |           0.92 |
 |     31 | HOOD     | financials_fintech  | NO_ACTION |         35.83 |  109.22 |    126.87 |  117.4  |      145.79 |           0.57 |
 |     32 | UBER     | internet_consumer   | DEFENSIVE |         53.35 |   71.5  |     72.88 |   70.46 |       77.72 |           0.72 |
-|     33 | MU       | semiconductors      | DEFENSIVE |         48.15 |  989.04 |   1109.83 | 1033.32 |     1262.85 |           0.93 |
+|     33 | MU       | semiconductors      | DEFENSIVE |         48.15 |  989.04 |   1109.83 | 1033.32 |     1262.85 |           0.94 |
 |     34 | SLB      | energy              | DEFENSIVE |         48.03 |   48.77 |     56.04 |   53.25 |       61.61 |           0.63 |
 |     35 | ORCL     | ai_software         | DEFENSIVE |         47.81 |  137.39 |    153.19 |  141.61 |      176.35 |           0.72 |
 |     36 | VRTX     | biotech             | DEFENSIVE |         47.5  |  507    |    530.42 |  513.7  |      563.87 |           0.9  |
