@@ -39,7 +39,7 @@
     "price": 553.15,
     "ema8": 537.08,
     "ema21": 524.7,
-    "ema50": 517.7,
+    "ema50": 517.69,
     "relative_20d_pct": 12.79,
     "relative_60d_pct": 14.0,
     "volume_ratio": 2.12,
@@ -79,6 +79,32 @@
   },
   {
     "rank": 4,
+    "ticker": "CVX",
+    "theme": "energy",
+    "action": "DEFENSIVE",
+    "total_score": 53.33,
+    "market_score": 0.0,
+    "theme_score": 18.6,
+    "leader_score": 17.64,
+    "setup_score": 13.09,
+    "breakout_score": 4.0,
+    "price": 227.77,
+    "ema8": 229.49,
+    "ema21": 223.58,
+    "ema50": 214.38,
+    "relative_20d_pct": 13.25,
+    "relative_60d_pct": 25.65,
+    "volume_ratio": 1.21,
+    "gap_to_breakout_pct": 3.82,
+    "avg_dollar_volume_20d": 1733406035.0,
+    "trigger": 236.72,
+    "stop": 226.63,
+    "target_2r": 256.89,
+    "stop_distance_pct": 4.26,
+    "max_position_pct_at_configured_risk": 23.47
+  },
+  {
+    "rank": 5,
     "ticker": "XOM",
     "theme": "energy",
     "action": "DEFENSIVE",
@@ -94,9 +120,9 @@
     "ema50": 169.69,
     "relative_20d_pct": 12.49,
     "relative_60d_pct": 20.66,
-    "volume_ratio": 1.34,
+    "volume_ratio": 1.35,
     "gap_to_breakout_pct": 4.91,
-    "avg_dollar_volume_20d": 2195719199.0,
+    "avg_dollar_volume_20d": 2196085726.0,
     "trigger": 188.69,
     "stop": 179.72,
     "target_2r": 206.62,
@@ -104,7 +130,7 @@
     "max_position_pct_at_configured_risk": 21.05
   },
   {
-    "rank": 5,
+    "rank": 6,
     "ticker": "JPM",
     "theme": "financials_fintech",
     "action": "DEFENSIVE",
@@ -120,9 +146,9 @@
     "ema50": 339.07,
     "relative_20d_pct": 5.91,
     "relative_60d_pct": -1.77,
-    "volume_ratio": 0.86,
+    "volume_ratio": 0.87,
     "gap_to_breakout_pct": 1.52,
-    "avg_dollar_volume_20d": 2364994238.0,
+    "avg_dollar_volume_20d": 2365387608.0,
     "trigger": 346.1,
     "stop": 337.11,
     "target_2r": 364.06,
@@ -130,7 +156,7 @@
     "max_position_pct_at_configured_risk": 25.0
   },
   {
-    "rank": 6,
+    "rank": 7,
     "ticker": "RTX",
     "theme": "aerospace_space",
     "action": "DEFENSIVE",
@@ -148,7 +174,7 @@
     "relative_60d_pct": -6.28,
     "volume_ratio": 0.76,
     "gap_to_breakout_pct": 0.7,
-    "avg_dollar_volume_20d": 1149851708.0,
+    "avg_dollar_volume_20d": 1149975410.0,
     "trigger": 204.41,
     "stop": 193.94,
     "target_2r": 225.35,
@@ -156,7 +182,7 @@
     "max_position_pct_at_configured_risk": 19.52
   },
   {
-    "rank": 7,
+    "rank": 8,
     "ticker": "FANG",
     "theme": "energy",
     "action": "DEFENSIVE",
@@ -182,7 +208,7 @@
     "max_position_pct_at_configured_risk": 17.5
   },
   {
-    "rank": 8,
+    "rank": 9,
     "ticker": "LMT",
     "theme": "aerospace_space",
     "action": "DEFENSIVE",
@@ -208,7 +234,7 @@
     "max_position_pct_at_configured_risk": 15.66
   },
   {
-    "rank": 9,
+    "rank": 10,
     "ticker": "GD",
     "theme": "aerospace_space",
     "action": "DEFENSIVE",
@@ -234,7 +260,7 @@
     "max_position_pct_at_configured_risk": 25.0
   },
   {
-    "rank": 10,
+    "rank": 11,
     "ticker": "SLB",
     "theme": "energy",
     "action": "DEFENSIVE",
@@ -252,7 +278,7 @@
     "relative_60d_pct": 6.55,
     "volume_ratio": 0.99,
     "gap_to_breakout_pct": 4.38,
-    "avg_dollar_volume_20d": 629432384.0,
+    "avg_dollar_volume_20d": 629458801.0,
     "trigger": 54.65,
     "stop": 51.65,
     "target_2r": 60.66,
@@ -260,7 +286,7 @@
     "max_position_pct_at_configured_risk": 18.21
   },
   {
-    "rank": 11,
+    "rank": 12,
     "ticker": "HAL",
     "theme": "energy",
     "action": "DEFENSIVE",
@@ -286,7 +312,7 @@
     "max_position_pct_at_configured_risk": 17.08
   },
   {
-    "rank": 12,
+    "rank": 13,
     "ticker": "NOC",
     "theme": "aerospace_space",
     "action": "DEFENSIVE",
@@ -312,7 +338,7 @@
     "max_position_pct_at_configured_risk": 17.84
   },
   {
-    "rank": 13,
+    "rank": 14,
     "ticker": "MSFT",
     "theme": "ai_software",
     "action": "DEFENSIVE",
@@ -328,9 +354,9 @@
     "ema50": 509.2,
     "relative_20d_pct": -0.51,
     "relative_60d_pct": 4.11,
-    "volume_ratio": 1.54,
+    "volume_ratio": 1.55,
     "gap_to_breakout_pct": 8.68,
-    "avg_dollar_volume_20d": 11367627167.0,
+    "avg_dollar_volume_20d": 11370649602.0,
     "trigger": 551.7,
     "stop": 526.13,
     "target_2r": 602.84,
@@ -338,7 +364,7 @@
     "max_position_pct_at_configured_risk": 21.57
   },
   {
-    "rank": 14,
+    "rank": 15,
     "ticker": "ISRG",
     "theme": "robotics_automation",
     "action": "DEFENSIVE",
@@ -364,14 +390,14 @@
     "max_position_pct_at_configured_risk": 16.59
   },
   {
-    "rank": 15,
+    "rank": 16,
     "ticker": "TEM",
     "theme": "ai_software",
     "action": "DEFENSIVE",
-    "total_score": 34.52,
+    "total_score": 35.27,
     "market_score": 0.0,
     "theme_score": 11.1,
-    "leader_score": 13.41,
+    "leader_score": 14.16,
     "setup_score": 3.01,
     "breakout_score": 7.0,
     "price": 78.48,
@@ -382,7 +408,7 @@
     "relative_60d_pct": 53.27,
     "volume_ratio": 2.46,
     "gap_to_breakout_pct": 12.12,
-    "avg_dollar_volume_20d": 543207584.0,
+    "avg_dollar_volume_20d": 543288026.0,
     "trigger": 88.08,
     "stop": 75.55,
     "target_2r": 113.13,
@@ -390,7 +416,7 @@
     "max_position_pct_at_configured_risk": 7.03
   },
   {
-    "rank": 16,
+    "rank": 17,
     "ticker": "MS",
     "theme": "financials_fintech",
     "action": "DEFENSIVE",
@@ -416,7 +442,7 @@
     "max_position_pct_at_configured_risk": 25.0
   },
   {
-    "rank": 17,
+    "rank": 18,
     "ticker": "MRNA",
     "theme": "biotech",
     "action": "DEFENSIVE",
@@ -434,7 +460,7 @@
     "relative_60d_pct": 275.71,
     "volume_ratio": 0.44,
     "gap_to_breakout_pct": 15.24,
-    "avg_dollar_volume_20d": 4191408642.0,
+    "avg_dollar_volume_20d": 4191570952.0,
     "trigger": 254.73,
     "stop": 210.65,
     "target_2r": 342.9,
@@ -442,7 +468,7 @@
     "max_position_pct_at_configured_risk": 5.78
   },
   {
-    "rank": 18,
+    "rank": 19,
     "ticker": "ROK",
     "theme": "robotics_automation",
     "action": "DEFENSIVE",
@@ -468,7 +494,7 @@
     "max_position_pct_at_configured_risk": 18.12
   },
   {
-    "rank": 19,
+    "rank": 20,
     "ticker": "GS",
     "theme": "financials_fintech",
     "action": "DEFENSIVE",
@@ -494,7 +520,7 @@
     "max_position_pct_at_configured_risk": 25.0
   },
   {
-    "rank": 20,
+    "rank": 21,
     "ticker": "AMZN",
     "theme": "internet_consumer",
     "action": "DEFENSIVE",
@@ -510,9 +536,9 @@
     "ema50": 253.19,
     "relative_20d_pct": 0.64,
     "relative_60d_pct": -8.02,
-    "volume_ratio": 1.36,
+    "volume_ratio": 1.37,
     "gap_to_breakout_pct": 8.02,
-    "avg_dollar_volume_20d": 10470531626.0,
+    "avg_dollar_volume_20d": 10472893358.0,
     "trigger": 265.61,
     "stop": 251.67,
     "target_2r": 293.48,
@@ -520,11 +546,11 @@
     "max_position_pct_at_configured_risk": 19.06
   },
   {
-    "rank": 21,
+    "rank": 22,
     "ticker": "SOFI",
     "theme": "financials_fintech",
     "action": "DEFENSIVE",
-    "total_score": 29.64,
+    "total_score": 29.65,
     "market_score": 0.0,
     "theme_score": 15.6,
     "leader_score": 7.86,
@@ -536,9 +562,9 @@
     "ema50": 16.29,
     "relative_20d_pct": 7.2,
     "relative_60d_pct": -7.19,
-    "volume_ratio": 0.98,
+    "volume_ratio": 0.99,
     "gap_to_breakout_pct": 6.2,
-    "avg_dollar_volume_20d": 918669751.0,
+    "avg_dollar_volume_20d": 918825293.0,
     "trigger": 17.65,
     "stop": 15.89,
     "target_2r": 21.16,
@@ -546,40 +572,14 @@
     "max_position_pct_at_configured_risk": 10.05
   },
   {
-    "rank": 22,
-    "ticker": "PLTR",
-    "theme": "ai_software",
-    "action": "DEFENSIVE",
-    "total_score": 29.51,
-    "market_score": 0.0,
-    "theme_score": 11.1,
-    "leader_score": 7.93,
-    "setup_score": 3.48,
-    "breakout_score": 7.0,
-    "price": 178.34,
-    "ema8": 190.76,
-    "ema21": 192.72,
-    "ema50": 184.99,
-    "relative_20d_pct": -2.91,
-    "relative_60d_pct": 6.17,
-    "volume_ratio": 1.52,
-    "gap_to_breakout_pct": 19.4,
-    "avg_dollar_volume_20d": 4279286938.0,
-    "trigger": 213.15,
-    "stop": 194.11,
-    "target_2r": 251.25,
-    "stop_distance_pct": 8.94,
-    "max_position_pct_at_configured_risk": 11.19
-  },
-  {
     "rank": 23,
     "ticker": "DASH",
     "theme": "internet_consumer",
     "action": "DEFENSIVE",
-    "total_score": 29.45,
+    "total_score": 29.59,
     "market_score": 0.0,
     "theme_score": 13.2,
-    "leader_score": 5.89,
+    "leader_score": 6.03,
     "setup_score": 6.36,
     "breakout_score": 4.0,
     "price": 190.07,
@@ -599,6 +599,32 @@
   },
   {
     "rank": 24,
+    "ticker": "PLTR",
+    "theme": "ai_software",
+    "action": "DEFENSIVE",
+    "total_score": 29.52,
+    "market_score": 0.0,
+    "theme_score": 11.1,
+    "leader_score": 7.94,
+    "setup_score": 3.48,
+    "breakout_score": 7.0,
+    "price": 178.34,
+    "ema8": 190.76,
+    "ema21": 192.72,
+    "ema50": 184.99,
+    "relative_20d_pct": -2.91,
+    "relative_60d_pct": 6.17,
+    "volume_ratio": 1.55,
+    "gap_to_breakout_pct": 19.4,
+    "avg_dollar_volume_20d": 4285593932.0,
+    "trigger": 213.15,
+    "stop": 194.11,
+    "target_2r": 251.25,
+    "stop_distance_pct": 8.94,
+    "max_position_pct_at_configured_risk": 11.19
+  },
+  {
+    "rank": 25,
     "ticker": "IBKR",
     "theme": "financials_fintech",
     "action": "DEFENSIVE",
@@ -624,7 +650,7 @@
     "max_position_pct_at_configured_risk": 13.08
   },
   {
-    "rank": 25,
+    "rank": 26,
     "ticker": "ZS",
     "theme": "cyber_security",
     "action": "DEFENSIVE",
@@ -650,14 +676,14 @@
     "max_position_pct_at_configured_risk": 9.63
   },
   {
-    "rank": 26,
+    "rank": 27,
     "ticker": "UBER",
     "theme": "internet_consumer",
     "action": "DEFENSIVE",
     "total_score": 25.84,
     "market_score": 0.0,
     "theme_score": 13.2,
-    "leader_score": 4.3,
+    "leader_score": 4.31,
     "setup_score": 7.33,
     "breakout_score": 1.0,
     "price": 66.71,
@@ -668,7 +694,7 @@
     "relative_60d_pct": -8.58,
     "volume_ratio": 1.09,
     "gap_to_breakout_pct": 8.05,
-    "avg_dollar_volume_20d": 1084670229.0,
+    "avg_dollar_volume_20d": 1084960084.0,
     "trigger": 72.15,
     "stop": 68.6,
     "target_2r": 79.26,
@@ -676,7 +702,7 @@
     "max_position_pct_at_configured_risk": 20.3
   },
   {
-    "rank": 27,
+    "rank": 28,
     "ticker": "OKTA",
     "theme": "cyber_security",
     "action": "DEFENSIVE",
@@ -692,9 +718,9 @@
     "ema50": 193.84,
     "relative_20d_pct": -12.38,
     "relative_60d_pct": 27.14,
-    "volume_ratio": 1.73,
+    "volume_ratio": 1.74,
     "gap_to_breakout_pct": 27.12,
-    "avg_dollar_volume_20d": 628576470.0,
+    "avg_dollar_volume_20d": 628688317.0,
     "trigger": 235.23,
     "stop": 207.79,
     "target_2r": 290.12,
@@ -702,7 +728,7 @@
     "max_position_pct_at_configured_risk": 8.57
   },
   {
-    "rank": 28,
+    "rank": 29,
     "ticker": "HWM",
     "theme": "aerospace_space",
     "action": "DEFENSIVE",
@@ -728,7 +754,7 @@
     "max_position_pct_at_configured_risk": 12.23
   },
   {
-    "rank": 29,
+    "rank": 30,
     "ticker": "ALNY",
     "theme": "biotech",
     "action": "DEFENSIVE",
@@ -754,7 +780,7 @@
     "max_position_pct_at_configured_risk": 9.77
   },
   {
-    "rank": 30,
+    "rank": 31,
     "ticker": "GOOGL",
     "theme": "internet_consumer",
     "action": "DEFENSIVE",
@@ -772,7 +798,7 @@
     "relative_60d_pct": -18.71,
     "volume_ratio": 1.42,
     "gap_to_breakout_pct": 28.82,
-    "avg_dollar_volume_20d": 9524948433.0,
+    "avg_dollar_volume_20d": 9527234756.0,
     "trigger": 359.76,
     "stop": 337.9,
     "target_2r": 403.48,
@@ -780,7 +806,7 @@
     "max_position_pct_at_configured_risk": 16.46
   },
   {
-    "rank": 31,
+    "rank": 32,
     "ticker": "CRWD",
     "theme": "ai_software",
     "action": "DEFENSIVE",
@@ -796,9 +822,9 @@
     "ema50": 240.8,
     "relative_20d_pct": -8.38,
     "relative_60d_pct": 15.27,
-    "volume_ratio": 1.0,
+    "volume_ratio": 1.01,
     "gap_to_breakout_pct": 18.68,
-    "avg_dollar_volume_20d": 2228858262.0,
+    "avg_dollar_volume_20d": 2229116999.0,
     "trigger": 287.28,
     "stop": 259.35,
     "target_2r": 343.13,
@@ -806,7 +832,7 @@
     "max_position_pct_at_configured_risk": 10.29
   },
   {
-    "rank": 32,
+    "rank": 33,
     "ticker": "NFLX",
     "theme": "internet_consumer",
     "action": "DEFENSIVE",
@@ -824,7 +850,7 @@
     "relative_60d_pct": -13.42,
     "volume_ratio": 0.91,
     "gap_to_breakout_pct": 17.21,
-    "avg_dollar_volume_20d": 2804805962.0,
+    "avg_dollar_volume_20d": 2805151638.0,
     "trigger": 73.14,
     "stop": 68.91,
     "target_2r": 81.61,
@@ -832,7 +858,7 @@
     "max_position_pct_at_configured_risk": 17.27
   },
   {
-    "rank": 33,
+    "rank": 34,
     "ticker": "META",
     "theme": "internet_consumer",
     "action": "DEFENSIVE",
@@ -850,7 +876,7 @@
     "relative_60d_pct": 5.05,
     "volume_ratio": 0.83,
     "gap_to_breakout_pct": 27.12,
-    "avg_dollar_volume_20d": 14171155529.0,
+    "avg_dollar_volume_20d": 14172860440.0,
     "trigger": 772.04,
     "stop": 724.96,
     "target_2r": 866.2,
@@ -858,11 +884,11 @@
     "max_position_pct_at_configured_risk": 16.4
   },
   {
-    "rank": 34,
+    "rank": 35,
     "ticker": "COIN",
     "theme": "financials_fintech",
     "action": "DEFENSIVE",
-    "total_score": 21.51,
+    "total_score": 21.52,
     "market_score": 0.0,
     "theme_score": 15.6,
     "leader_score": 1.71,
@@ -876,7 +902,7 @@
     "relative_60d_pct": -7.77,
     "volume_ratio": 1.27,
     "gap_to_breakout_pct": 39.88,
-    "avg_dollar_volume_20d": 1149852993.0,
+    "avg_dollar_volume_20d": 1150261659.0,
     "trigger": 192.99,
     "stop": 171.78,
     "target_2r": 235.42,
@@ -884,7 +910,7 @@
     "max_position_pct_at_configured_risk": 9.1
   },
   {
-    "rank": 35,
+    "rank": 36,
     "ticker": "ORCL",
     "theme": "ai_software",
     "action": "DEFENSIVE",
@@ -902,7 +928,7 @@
     "relative_60d_pct": -16.11,
     "volume_ratio": 1.74,
     "gap_to_breakout_pct": 24.54,
-    "avg_dollar_volume_20d": 4018512219.0,
+    "avg_dollar_volume_20d": 4020091884.0,
     "trigger": 148.63,
     "stop": 133.37,
     "target_2r": 179.15,
@@ -910,7 +936,7 @@
     "max_position_pct_at_configured_risk": 9.74
   },
   {
-    "rank": 36,
+    "rank": 37,
     "ticker": "MELI",
     "theme": "internet_consumer",
     "action": "DEFENSIVE",
@@ -936,7 +962,7 @@
     "max_position_pct_at_configured_risk": 14.36
   },
   {
-    "rank": 37,
+    "rank": 38,
     "ticker": "DDOG",
     "theme": "ai_software",
     "action": "DEFENSIVE",
@@ -962,7 +988,7 @@
     "max_position_pct_at_configured_risk": 8.34
   },
   {
-    "rank": 38,
+    "rank": 39,
     "ticker": "PATH",
     "theme": "robotics_automation",
     "action": "DEFENSIVE",
@@ -988,14 +1014,14 @@
     "max_position_pct_at_configured_risk": 20.98
   },
   {
-    "rank": 39,
+    "rank": 40,
     "ticker": "CRSP",
     "theme": "biotech",
     "action": "DEFENSIVE",
-    "total_score": 19.63,
+    "total_score": 19.65,
     "market_score": 0.0,
     "theme_score": 13.1,
-    "leader_score": 3.92,
+    "leader_score": 3.95,
     "setup_score": 2.61,
     "breakout_score": 0.0,
     "price": 49.99,
@@ -1014,7 +1040,33 @@
     "max_position_pct_at_configured_risk": 12.84
   },
   {
-    "rank": 40,
+    "rank": 41,
+    "ticker": "HOOD",
+    "theme": "financials_fintech",
+    "action": "DEFENSIVE",
+    "total_score": 19.23,
+    "market_score": 0.0,
+    "theme_score": 15.6,
+    "leader_score": 1.95,
+    "setup_score": 0.68,
+    "breakout_score": 1.0,
+    "price": 83.84,
+    "ema8": 90.83,
+    "ema21": 98.1,
+    "ema50": 102.74,
+    "relative_20d_pct": -23.59,
+    "relative_60d_pct": -7.63,
+    "volume_ratio": 1.0,
+    "gap_to_breakout_pct": 38.66,
+    "avg_dollar_volume_20d": 1634075484.0,
+    "trigger": 116.37,
+    "stop": 104.66,
+    "target_2r": 139.77,
+    "stop_distance_pct": 10.06,
+    "max_position_pct_at_configured_risk": 9.94
+  },
+  {
+    "rank": 42,
     "ticker": "FTNT",
     "theme": "cyber_security",
     "action": "DEFENSIVE",
@@ -1040,7 +1092,7 @@
     "max_position_pct_at_configured_risk": 9.23
   },
   {
-    "rank": 41,
+    "rank": 43,
     "ticker": "SNOW",
     "theme": "ai_software",
     "action": "DEFENSIVE",
@@ -1066,33 +1118,7 @@
     "max_position_pct_at_configured_risk": 10.04
   },
   {
-    "rank": 42,
-    "ticker": "HOOD",
-    "theme": "financials_fintech",
-    "action": "DEFENSIVE",
-    "total_score": 18.23,
-    "market_score": 0.0,
-    "theme_score": 15.6,
-    "leader_score": 1.95,
-    "setup_score": 0.68,
-    "breakout_score": 0.0,
-    "price": 83.84,
-    "ema8": 90.83,
-    "ema21": 98.1,
-    "ema50": 102.74,
-    "relative_20d_pct": -23.59,
-    "relative_60d_pct": -7.63,
-    "volume_ratio": 1.0,
-    "gap_to_breakout_pct": 38.66,
-    "avg_dollar_volume_20d": 1633735932.0,
-    "trigger": 116.37,
-    "stop": 104.66,
-    "target_2r": 139.77,
-    "stop_distance_pct": 10.06,
-    "max_position_pct_at_configured_risk": 9.94
-  },
-  {
-    "rank": 43,
+    "rank": 44,
     "ticker": "NOW",
     "theme": "ai_software",
     "action": "DEFENSIVE",
@@ -1110,7 +1136,7 @@
     "relative_60d_pct": -12.62,
     "volume_ratio": 1.36,
     "gap_to_breakout_pct": 50.46,
-    "avg_dollar_volume_20d": 1908354425.0,
+    "avg_dollar_volume_20d": 1908493298.0,
     "trigger": 159.66,
     "stop": 142.07,
     "target_2r": 194.85,
@@ -1118,7 +1144,7 @@
     "max_position_pct_at_configured_risk": 9.07
   },
   {
-    "rank": 44,
+    "rank": 45,
     "ticker": "NET",
     "theme": "ai_software",
     "action": "DEFENSIVE",
@@ -1144,7 +1170,7 @@
     "max_position_pct_at_configured_risk": 8.79
   },
   {
-    "rank": 45,
+    "rank": 46,
     "ticker": "APP",
     "theme": "ai_software",
     "action": "DEFENSIVE",
@@ -1162,7 +1188,7 @@
     "relative_60d_pct": -31.52,
     "volume_ratio": 1.38,
     "gap_to_breakout_pct": 25.5,
-    "avg_dollar_volume_20d": 862222148.0,
+    "avg_dollar_volume_20d": 862390353.0,
     "trigger": 287.49,
     "stop": 265.36,
     "target_2r": 331.74,
@@ -1170,7 +1196,7 @@
     "max_position_pct_at_configured_risk": 12.99
   },
   {
-    "rank": 46,
+    "rank": 47,
     "ticker": "PANW",
     "theme": "cyber_security",
     "action": "DEFENSIVE",
@@ -1196,7 +1222,7 @@
     "max_position_pct_at_configured_risk": 10.56
   },
   {
-    "rank": 47,
+    "rank": 48,
     "ticker": "TSM",
     "theme": "semiconductors",
     "action": "DEFENSIVE",
@@ -1214,7 +1240,7 @@
     "relative_60d_pct": -2.35,
     "volume_ratio": 1.09,
     "gap_to_breakout_pct": 22.29,
-    "avg_dollar_volume_20d": 4821575409.0,
+    "avg_dollar_volume_20d": 4822406553.0,
     "trigger": 487.96,
     "stop": 457.94,
     "target_2r": 548.0,
@@ -1222,7 +1248,7 @@
     "max_position_pct_at_configured_risk": 16.25
   },
   {
-    "rank": 48,
+    "rank": 49,
     "ticker": "CEG",
     "theme": "nuclear_power",
     "action": "DEFENSIVE",
@@ -1235,7 +1261,7 @@
     "price": 257.25,
     "ema8": 260.81,
     "ema21": 265.85,
-    "ema50": 269.24,
+    "ema50": 269.23,
     "relative_20d_pct": -0.94,
     "relative_60d_pct": -2.04,
     "volume_ratio": 0.81,
@@ -1248,14 +1274,14 @@
     "max_position_pct_at_configured_risk": 13.85
   },
   {
-    "rank": 49,
+    "rank": 50,
     "ticker": "ASTS",
     "theme": "aerospace_space",
     "action": "DEFENSIVE",
-    "total_score": 15.64,
+    "total_score": 15.65,
     "market_score": 0.0,
     "theme_score": 12.1,
-    "leader_score": 3.54,
+    "leader_score": 3.55,
     "setup_score": 0.0,
     "breakout_score": 0.0,
     "price": 36.33,
@@ -1266,7 +1292,7 @@
     "relative_60d_pct": -47.0,
     "volume_ratio": 0.97,
     "gap_to_breakout_pct": 78.23,
-    "avg_dollar_volume_20d": 663453044.0,
+    "avg_dollar_volume_20d": 663553315.0,
     "trigger": 64.81,
     "stop": 57.48,
     "target_2r": 79.49,
@@ -1274,7 +1300,7 @@
     "max_position_pct_at_configured_risk": 8.83
   },
   {
-    "rank": 50,
+    "rank": 51,
     "ticker": "TER",
     "theme": "robotics_automation",
     "action": "DEFENSIVE",
@@ -1300,7 +1326,7 @@
     "max_position_pct_at_configured_risk": 9.8
   },
   {
-    "rank": 51,
+    "rank": 52,
     "ticker": "NVDA",
     "theme": "semiconductors",
     "action": "DEFENSIVE",
@@ -1318,7 +1344,7 @@
     "relative_60d_pct": -7.18,
     "volume_ratio": 1.18,
     "gap_to_breakout_pct": 20.44,
-    "avg_dollar_volume_20d": 20336255713.0,
+    "avg_dollar_volume_20d": 20342165968.0,
     "trigger": 243.61,
     "stop": 230.14,
     "target_2r": 270.56,
@@ -1326,7 +1352,7 @@
     "max_position_pct_at_configured_risk": 18.08
   },
   {
-    "rank": 52,
+    "rank": 53,
     "ticker": "AVAV",
     "theme": "aerospace_space",
     "action": "DEFENSIVE",
@@ -1352,7 +1378,7 @@
     "max_position_pct_at_configured_risk": 10.45
   },
   {
-    "rank": 53,
+    "rank": 54,
     "ticker": "SYM",
     "theme": "robotics_automation",
     "action": "DEFENSIVE",
@@ -1378,7 +1404,7 @@
     "max_position_pct_at_configured_risk": 9.68
   },
   {
-    "rank": 54,
+    "rank": 55,
     "ticker": "MRVL",
     "theme": "semiconductors",
     "action": "DEFENSIVE",
@@ -1394,9 +1420,9 @@
     "ema50": 237.46,
     "relative_20d_pct": -33.86,
     "relative_60d_pct": -19.12,
-    "volume_ratio": 2.41,
+    "volume_ratio": 2.42,
     "gap_to_breakout_pct": 75.72,
-    "avg_dollar_volume_20d": 4357163444.0,
+    "avg_dollar_volume_20d": 4358952965.0,
     "trigger": 301.51,
     "stop": 262.96,
     "target_2r": 378.61,
@@ -1404,7 +1430,7 @@
     "max_position_pct_at_configured_risk": 7.82
   },
   {
-    "rank": 55,
+    "rank": 56,
     "ticker": "RKLB",
     "theme": "aerospace_space",
     "action": "DEFENSIVE",
@@ -1422,7 +1448,7 @@
     "relative_60d_pct": -34.64,
     "volume_ratio": 0.84,
     "gap_to_breakout_pct": 50.34,
-    "avg_dollar_volume_20d": 1014230649.0,
+    "avg_dollar_volume_20d": 1014403261.0,
     "trigger": 78.36,
     "stop": 69.77,
     "target_2r": 95.53,
@@ -1430,7 +1456,7 @@
     "max_position_pct_at_configured_risk": 9.13
   },
   {
-    "rank": 56,
+    "rank": 57,
     "ticker": "AMD",
     "theme": "semiconductors",
     "action": "DEFENSIVE",
@@ -1446,9 +1472,9 @@
     "ema50": 546.53,
     "relative_20d_pct": -23.17,
     "relative_60d_pct": -0.92,
-    "volume_ratio": 1.49,
+    "volume_ratio": 1.5,
     "gap_to_breakout_pct": 41.06,
-    "avg_dollar_volume_20d": 10000837806.0,
+    "avg_dollar_volume_20d": 10004343774.0,
     "trigger": 659.18,
     "stop": 593.2,
     "target_2r": 791.14,
@@ -1456,7 +1482,7 @@
     "max_position_pct_at_configured_risk": 9.99
   },
   {
-    "rank": 57,
+    "rank": 58,
     "ticker": "BWXT",
     "theme": "nuclear_power",
     "action": "DEFENSIVE",
@@ -1482,14 +1508,14 @@
     "max_position_pct_at_configured_risk": 14.14
   },
   {
-    "rank": 58,
+    "rank": 59,
     "ticker": "KLAC",
     "theme": "semiconductors",
     "action": "DEFENSIVE",
     "total_score": 12.71,
     "market_score": 0.0,
     "theme_score": 4.5,
-    "leader_score": 2.24,
+    "leader_score": 2.25,
     "setup_score": 1.96,
     "breakout_score": 4.0,
     "price": 153.11,
@@ -1500,7 +1526,7 @@
     "relative_60d_pct": -20.13,
     "volume_ratio": 1.25,
     "gap_to_breakout_pct": 35.63,
-    "avg_dollar_volume_20d": 1854358088.0,
+    "avg_dollar_volume_20d": 1854471390.0,
     "trigger": 207.87,
     "stop": 191.11,
     "target_2r": 241.38,
@@ -1508,7 +1534,7 @@
     "max_position_pct_at_configured_risk": 12.4
   },
   {
-    "rank": 59,
+    "rank": 60,
     "ticker": "CCJ",
     "theme": "nuclear_power",
     "action": "DEFENSIVE",
@@ -1534,7 +1560,7 @@
     "max_position_pct_at_configured_risk": 12.92
   },
   {
-    "rank": 60,
+    "rank": 61,
     "ticker": "VST",
     "theme": "nuclear_power",
     "action": "DEFENSIVE",
@@ -1552,7 +1578,7 @@
     "relative_60d_pct": -1.6,
     "volume_ratio": 0.68,
     "gap_to_breakout_pct": 25.36,
-    "avg_dollar_volume_20d": 950160169.0,
+    "avg_dollar_volume_20d": 950244974.0,
     "trigger": 168.92,
     "stop": 154.4,
     "target_2r": 197.95,
@@ -1560,14 +1586,14 @@
     "max_position_pct_at_configured_risk": 11.64
   },
   {
-    "rank": 61,
+    "rank": 62,
     "ticker": "AVGO",
     "theme": "semiconductors",
     "action": "DEFENSIVE",
     "total_score": 11.57,
     "market_score": 0.0,
     "theme_score": 4.5,
-    "leader_score": 1.33,
+    "leader_score": 1.34,
     "setup_score": 5.73,
     "breakout_score": 0.0,
     "price": 322.23,
@@ -1576,9 +1602,9 @@
     "ema50": 352.46,
     "relative_20d_pct": -8.18,
     "relative_60d_pct": -22.04,
-    "volume_ratio": 0.91,
+    "volume_ratio": 0.92,
     "gap_to_breakout_pct": 18.19,
-    "avg_dollar_volume_20d": 7140958607.0,
+    "avg_dollar_volume_20d": 7142361919.0,
     "trigger": 381.22,
     "stop": 355.19,
     "target_2r": 433.29,
@@ -1586,7 +1612,7 @@
     "max_position_pct_at_configured_risk": 14.64
   },
   {
-    "rank": 62,
+    "rank": 63,
     "ticker": "ARM",
     "theme": "semiconductors",
     "action": "DEFENSIVE",
@@ -1604,7 +1630,7 @@
     "relative_60d_pct": -27.86,
     "volume_ratio": 1.25,
     "gap_to_breakout_pct": 58.04,
-    "avg_dollar_volume_20d": 987773596.0,
+    "avg_dollar_volume_20d": 987958579.0,
     "trigger": 311.31,
     "stop": 283.49,
     "target_2r": 366.96,
@@ -1612,7 +1638,7 @@
     "max_position_pct_at_configured_risk": 11.19
   },
   {
-    "rank": 63,
+    "rank": 64,
     "ticker": "AMAT",
     "theme": "semiconductors",
     "action": "DEFENSIVE",
@@ -1630,7 +1656,7 @@
     "relative_60d_pct": -27.96,
     "volume_ratio": 1.06,
     "gap_to_breakout_pct": 45.78,
-    "avg_dollar_volume_20d": 2758709320.0,
+    "avg_dollar_volume_20d": 2759074486.0,
     "trigger": 546.55,
     "stop": 504.59,
     "target_2r": 630.46,
@@ -1638,7 +1664,7 @@
     "max_position_pct_at_configured_risk": 13.03
   },
   {
-    "rank": 64,
+    "rank": 65,
     "ticker": "MU",
     "theme": "semiconductors",
     "action": "DEFENSIVE",
@@ -1654,9 +1680,9 @@
     "ema50": 953.77,
     "relative_20d_pct": -18.71,
     "relative_60d_pct": -2.5,
-    "volume_ratio": 1.11,
+    "volume_ratio": 1.12,
     "gap_to_breakout_pct": 30.65,
-    "avg_dollar_volume_20d": 22229291063.0,
+    "avg_dollar_volume_20d": 22238535576.0,
     "trigger": 1090.14,
     "stop": 987.76,
     "target_2r": 1294.89,
@@ -1664,7 +1690,7 @@
     "max_position_pct_at_configured_risk": 10.65
   },
   {
-    "rank": 65,
+    "rank": 66,
     "ticker": "LRCX",
     "theme": "semiconductors",
     "action": "DEFENSIVE",
@@ -1680,9 +1706,9 @@
     "ema50": 286.47,
     "relative_20d_pct": -31.26,
     "relative_60d_pct": -24.34,
-    "volume_ratio": 1.03,
+    "volume_ratio": 1.04,
     "gap_to_breakout_pct": 54.41,
-    "avg_dollar_volume_20d": 2497837345.0,
+    "avg_dollar_volume_20d": 2498163893.0,
     "trigger": 351.72,
     "stop": 320.65,
     "target_2r": 413.87,
@@ -1690,7 +1716,7 @@
     "max_position_pct_at_configured_risk": 11.32
   },
   {
-    "rank": 66,
+    "rank": 67,
     "ticker": "LEU",
     "theme": "nuclear_power",
     "action": "DEFENSIVE",
@@ -1716,7 +1742,7 @@
     "max_position_pct_at_configured_risk": 8.6
   },
   {
-    "rank": 67,
+    "rank": 68,
     "ticker": "NNE",
     "theme": "nuclear_power",
     "action": "DEFENSIVE",
@@ -1742,7 +1768,7 @@
     "max_position_pct_at_configured_risk": 8.98
   },
   {
-    "rank": 68,
+    "rank": 69,
     "ticker": "OKLO",
     "theme": "nuclear_power",
     "action": "DEFENSIVE",
@@ -1760,7 +1786,7 @@
     "relative_60d_pct": -48.93,
     "volume_ratio": 0.91,
     "gap_to_breakout_pct": 67.09,
-    "avg_dollar_volume_20d": 222751104.0,
+    "avg_dollar_volume_20d": 222791323.0,
     "trigger": 39.34,
     "stop": 35.6,
     "target_2r": 46.82,
@@ -1768,7 +1794,7 @@
     "max_position_pct_at_configured_risk": 10.52
   },
   {
-    "rank": 69,
+    "rank": 70,
     "ticker": "SMR",
     "theme": "nuclear_power",
     "action": "DEFENSIVE",
@@ -1786,7 +1812,7 @@
     "relative_60d_pct": -43.02,
     "volume_ratio": 0.73,
     "gap_to_breakout_pct": 56.45,
-    "avg_dollar_volume_20d": 167466740.0,
+    "avg_dollar_volume_20d": 167483780.0,
     "trigger": 8.38,
     "stop": 7.5,
     "target_2r": 10.13,
@@ -1794,14 +1820,14 @@
     "max_position_pct_at_configured_risk": 9.56
   },
   {
-    "rank": 70,
+    "rank": 71,
     "ticker": "RXRX",
     "theme": "biotech",
     "action": "FILTERED",
-    "total_score": 21.72,
+    "total_score": 22.04,
     "market_score": 0.0,
     "theme_score": 13.1,
-    "leader_score": 8.62,
+    "leader_score": 8.94,
     "setup_score": 0.0,
     "breakout_score": 0.0,
     "price": 3.83,
@@ -1812,7 +1838,7 @@
     "relative_60d_pct": 21.44,
     "volume_ratio": 0.77,
     "gap_to_breakout_pct": 35.51,
-    "avg_dollar_volume_20d": 112208293.0,
+    "avg_dollar_volume_20d": 112216604.0,
     "trigger": 5.2,
     "stop": 4.45,
     "target_2r": 6.69,
