@@ -1,54 +1,54 @@
 # Latest stack ranking
 
-Generated: 2026-11-05 01:35 UTC
+Generated: 2026-11-06 01:41 UTC
 
-Market regime: **DEFENSIVE** — market score **0/20**.
-SPY: close 754.35 | EMA8 760.89 | EMA21 765.18 | EMA50 764.40
+Market regime: **UPTREND_COOLING** — market score **16/20**.
+SPY: close 766.81 | EMA8 762.20 | EMA21 765.33 | EMA50 764.49
 
 ## Ranked candidates
 
 |   rank | ticker   | theme               | action    |   total_score |   price |   trigger |    stop |   target_2r |   volume_ratio |
 |-------:|:---------|:--------------------|:----------|--------------:|--------:|----------:|--------:|------------:|---------------:|
-|      1 | REGN     | biotech             | DEFENSIVE |         56.91 |  973.36 |    974.97 |  917.01 |     1090.9  |           1.46 |
-|      2 | COP      | energy              | DEFENSIVE |         52.13 |  144.4  |    154.43 |  146.52 |      170.27 |           1.51 |
-|      3 | CVX      | energy              | DEFENSIVE |         46.94 |  225.27 |    236.72 |  226.85 |      256.46 |           0.96 |
-|      4 | RTX      | aerospace_space     | DEFENSIVE |         46.37 |  203.82 |    204.41 |  194.84 |      223.56 |           0.78 |
-|      5 | GD       | aerospace_space     | DEFENSIVE |         44.2  |  374.5  |    386.99 |  371.95 |      417.06 |           1.33 |
-|      6 | XOM      | energy              | DEFENSIVE |         43.84 |  177.46 |    188.69 |  179.76 |      206.55 |           0.94 |
-|      7 | JPM      | financials_fintech  | DEFENSIVE |         42.02 |  337.98 |    346.1  |  337.19 |      363.9  |           0.97 |
-|      8 | VRTX     | biotech             | DEFENSIVE |         41.29 |  530.76 |    569.24 |  533.08 |      641.56 |           1.49 |
-|      9 | LMT      | aerospace_space     | DEFENSIVE |         40.95 |  639    |    657.66 |  616.51 |      739.95 |           0.8  |
-|     10 | SLB      | energy              | DEFENSIVE |         38.94 |   52.13 |     54.65 |   51.7  |       60.57 |           0.73 |
-|     11 | FANG     | energy              | DEFENSIVE |         38.87 |  192.34 |    212.75 |  199.85 |      238.56 |           1.44 |
-|     12 | MRNA     | biotech             | DEFENSIVE |         37.58 |  228.44 |    254.73 |  212.27 |      339.67 |           0.51 |
-|     13 | MS       | financials_fintech  | DEFENSIVE |         35.44 |  186.09 |    192.32 |  186.41 |      204.14 |           0.83 |
-|     14 | ROK      | robotics_automation | DEFENSIVE |         34.83 |  446.38 |    460.66 |  436.09 |      509.8  |           0.71 |
-|     15 | HAL      | energy              | DEFENSIVE |         34.38 |   34.07 |     36.58 |   34.38 |       40.96 |           0.82 |
-|     16 | NOC      | aerospace_space     | DEFENSIVE |         34.34 |  550.3  |    576.13 |  545.28 |      637.82 |           0.79 |
-|     17 | GS       | financials_fintech  | DEFENSIVE |         32.82 |  896.09 |    940.32 |  904.25 |     1012.45 |           0.64 |
-|     18 | MSFT     | ai_software         | DEFENSIVE |         32.32 |  520.99 |    551.7  |  525.69 |      603.73 |           0.89 |
-|     19 | SOFI     | financials_fintech  | DEFENSIVE |         32.27 |   16.77 |     17.65 |   15.97 |       21    |           0.88 |
-|     20 | ISRG     | robotics_automation | DEFENSIVE |         32.11 |  440.75 |    459.34 |  431.85 |      514.32 |           0.69 |
-|     21 | TEM      | ai_software         | DEFENSIVE |         31.04 |   77.8  |     88.08 |   75.28 |      113.67 |           0.99 |
-|     22 | UBER     | internet_consumer   | DEFENSIVE |         28.45 |   66.6  |     72.15 |   68.84 |       78.77 |           1.29 |
-|     23 | AMZN     | internet_consumer   | DEFENSIVE |         28.11 |  250.69 |    265.61 |  251.58 |      293.66 |           0.88 |
-|     24 | HWM      | aerospace_space     | DEFENSIVE |         27.58 |  223.12 |    231.96 |  211.76 |      272.37 |           1.39 |
-|     25 | OKTA     | cyber_security      | DEFENSIVE |         26.28 |  189.68 |    235.23 |  206.46 |      292.78 |           6.85 |
-|     26 | PLTR     | ai_software         | DEFENSIVE |         25.95 |  175.4  |    213.15 |  193.6  |      252.26 |           2.06 |
-|     27 | ALNY     | biotech             | DEFENSIVE |         25.19 |  159.89 |    239.2  |  215.07 |      287.45 |           1.54 |
-|     28 | DASH     | internet_consumer   | DEFENSIVE |         24.03 |  183.32 |    198.11 |  184.52 |      225.3  |           1.42 |
-|     29 | IBKR     | financials_fintech  | DEFENSIVE |         23.75 |   77.46 |     91.94 |   85.08 |      105.66 |           1.15 |
-|     30 | COIN     | financials_fintech  | DEFENSIVE |         23.48 |  145.45 |    192.99 |  171.54 |      235.9  |           1.24 |
-|     31 | CRSP     | biotech             | DEFENSIVE |         23.1  |   49.99 |     60.74 |   55.96 |       70.31 |           0.9  |
-|     32 | NFLX     | internet_consumer   | DEFENSIVE |         23    |   63.42 |     73.14 |   68.95 |       81.52 |           0.81 |
-|     33 | ZS       | cyber_security      | DEFENSIVE |         22.83 |  225.09 |    268.14 |  240.23 |      323.95 |           0.59 |
-|     34 | META     | internet_consumer   | DEFENSIVE |         22.15 |  621.03 |    772.04 |  726.4  |      863.32 |           0.59 |
-|     35 | ORCL     | ai_software         | DEFENSIVE |         21.15 |  126.19 |    148.63 |  132.75 |      180.39 |           2.28 |
-|     36 | CRWD     | ai_software         | DEFENSIVE |         19.87 |  244.68 |    287.28 |  259.87 |      342.1  |           0.7  |
-|     37 | HOOD     | financials_fintech  | DEFENSIVE |         19.2  |   85.68 |    116.37 |  105.83 |      137.44 |           0.72 |
-|     38 | GOOGL    | internet_consumer   | DEFENSIVE |         19.08 |  280.03 |    359.76 |  339.14 |      401.01 |           1    |
-|     39 | DDOG     | ai_software         | DEFENSIVE |         18.75 |  220.52 |    300.98 |  265.71 |      371.52 |           2.13 |
-|     40 | MELI     | internet_consumer   | DEFENSIVE |         18.4  | 1662.16 |   1926.52 | 1797.55 |     2184.47 |           0.76 |
+|      1 | MSFT     | ai_software         | WATCH     |         73.09 |  555.8  |    551.7  |  526.89 |      613.63 |           2.11 |
+|      2 | MRNA     | biotech             | WATCH     |         71.91 |  258.38 |    254.73 |  216.46 |      331.29 |           0.8  |
+|      3 | ISRG     | robotics_automation | WATCH     |         71.5  |  482.1  |    459.34 |  449.64 |      547.01 |           1.82 |
+|      4 | REGN     | biotech             | WATCH     |         67.89 |  930.67 |    976.47 |  913.76 |     1101.87 |           1.62 |
+|      5 | JPM      | financials_fintech  | NO_ACTION |         76.97 |  352.11 |    346.1  |  338.64 |      379.06 |           1.45 |
+|      6 | MS       | financials_fintech  | NO_ACTION |         72.56 |  193.97 |    192.32 |  187.1  |      207.71 |           1.2  |
+|      7 | AMZN     | internet_consumer   | NO_ACTION |         72.25 |  266.03 |    265.61 |  252.89 |      292.31 |           2.04 |
+|      8 | DASH     | internet_consumer   | NO_ACTION |         67.57 |  198.59 |    198.11 |  185.8  |      224.17 |           1.71 |
+|      9 | VRTX     | biotech             | NO_ACTION |         62.73 |  549.04 |    569.24 |  532.48 |      642.76 |           1.12 |
+|     10 | SOFI     | financials_fintech  | NO_ACTION |         58.62 |   17.38 |     17.65 |   16.1  |       20.75 |           0.97 |
+|     11 | UBER     | internet_consumer   | NO_ACTION |         57.36 |   69.87 |     72.15 |   68.36 |       79.73 |           2.07 |
+|     12 | ROK      | robotics_automation | NO_ACTION |         54.81 |  443.88 |    454.58 |  436.8  |      490.15 |           1.4  |
+|     13 | LMT      | aerospace_space     | NO_ACTION |         54.38 |  595.04 |    657.66 |  611.39 |      750.19 |           1.82 |
+|     14 | GD       | aerospace_space     | NO_ACTION |         54.1  |  364.87 |    386.99 |  371.2  |      418.56 |           1.38 |
+|     15 | RTX      | aerospace_space     | NO_ACTION |         53.42 |  198.43 |    205.83 |  195.17 |      227.14 |           1.22 |
+|     16 | CVX      | energy              | NO_ACTION |         52.76 |  216.96 |    236.72 |  226.1  |      257.96 |           1.45 |
+|     17 | TEM      | ai_software         | NO_ACTION |         45.43 |   75.61 |     84.55 |   72.56 |      108.55 |           0.95 |
+|     18 | ZS       | cyber_security      | NO_ACTION |         36.72 |  224.44 |    268.14 |  240.33 |      323.75 |           0.6  |
+|     19 | CRWD     | ai_software         | NO_ACTION |         36.02 |  241    |    277.18 |  250.02 |      331.48 |           0.97 |
+|     20 | GS       | financials_fintech  | DEFENSIVE |         66.39 |  928    |    940.32 |  906.41 |     1008.13 |           1.24 |
+|     21 | SLB      | energy              | DEFENSIVE |         53.49 |   51.56 |     54.65 |   51.68 |       60.6  |           1.64 |
+|     22 | XOM      | energy              | DEFENSIVE |         52.9  |  169.27 |    188.69 |  179.05 |      207.97 |           1.95 |
+|     23 | COP      | energy              | DEFENSIVE |         52.7  |  136.94 |    154.43 |  145.47 |      172.37 |           1.75 |
+|     24 | META     | internet_consumer   | DEFENSIVE |         49.53 |  630    |    772.04 |  727.31 |      861.51 |           1.33 |
+|     25 | IBKR     | financials_fintech  | DEFENSIVE |         48.43 |   77.88 |     89.2  |   82.68 |      102.24 |           1.56 |
+|     26 | NOC      | aerospace_space     | DEFENSIVE |         47.92 |  525.35 |    576.13 |  542.72 |      642.93 |           1.66 |
+|     27 | NFLX     | internet_consumer   | DEFENSIVE |         47.13 |   66.39 |     73.14 |   68.83 |       81.77 |           1.08 |
+|     28 | HAL      | energy              | DEFENSIVE |         45.4  |   33    |     36.58 |   34.25 |       41.23 |           1.43 |
+|     29 | FANG     | energy              | DEFENSIVE |         45.36 |  182.88 |    212.75 |  198.65 |      240.96 |           1.66 |
+|     30 | CRSP     | biotech             | DEFENSIVE |         44.31 |   51.78 |     55.88 |   51.65 |       64.33 |           0.99 |
+|     31 | MELI     | internet_consumer   | DEFENSIVE |         44.23 | 1739.88 |   1926.52 | 1791.79 |     2196    |           1.49 |
+|     32 | GOOGL    | internet_consumer   | DEFENSIVE |         43.24 |  288.93 |    359.76 |  338.43 |      402.41 |           1.41 |
+|     33 | APP      | ai_software         | DEFENSIVE |         42.33 |  271.75 |    283.94 |  264.3  |      323.23 |           3.35 |
+|     34 | ALNY     | biotech             | DEFENSIVE |         40.4  |  161.08 |    239.2  |  214.96 |      287.67 |           1.4  |
+|     35 | COIN     | financials_fintech  | DEFENSIVE |         39.08 |  151.5  |    185.68 |  165.39 |      226.24 |           1.05 |
+|     36 | HOOD     | financials_fintech  | DEFENSIVE |         38.26 |   87.41 |    112.1  |  102.21 |      131.89 |           1.04 |
+|     37 | HWM      | aerospace_space     | DEFENSIVE |         37.94 |  213.56 |    228.73 |  211.69 |      262.81 |           1.39 |
+|     38 | ORCL     | ai_software         | DEFENSIVE |         37.05 |  123.73 |    148.63 |  132.67 |      180.55 |           2.68 |
+|     39 | PLTR     | ai_software         | DEFENSIVE |         36.51 |  171.7  |    213.15 |  192.96 |      253.53 |           1.31 |
+|     40 | PATH     | robotics_automation | DEFENSIVE |         36.05 |   13.51 |     14.34 |   13.6  |       15.83 |           0.7  |
 
 ## Signal meaning
 
